@@ -9,5 +9,12 @@ public class Variables {
         String auto= "Ferrari";
         double velocidad = 90.3;
         System.out.printf("El auto %s se desplaza a %f km/h\n", auto, velocidad);
+
+        int precioLeche = 14;
+        double precioJamon= 35.6;
+        int precioHuevo = 23;
+
+        double precioTotal = precioLeche + precioJamon + precioHuevo;
+        System.out.printf("El precio total es : %f\n",precioTotal);
     }
 }
